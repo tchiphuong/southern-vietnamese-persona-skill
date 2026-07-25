@@ -10,7 +10,6 @@
 
   [![npm version](https://img.shields.io/npm/v/southern-vietnamese-persona-skill.svg?style=for-the-badge&color=success)](https://www.npmjs.com/package/southern-vietnamese-persona-skill)
   [![GitHub Stars](https://img.shields.io/github/stars/tchiphuong/southern-vietnamese-persona-skill?style=for-the-badge&logo=github&color=gold)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/stargazers)
-  [![Donate MoMo](https://img.shields.io/badge/Donate-MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://nhantien.momo.vn/0944615969)
   [![Validate Skill Format](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
@@ -333,12 +332,12 @@ Project Link: [https://github.com/tchiphuong/southern-vietnamese-persona-skill](
 
 If you encounter any issues or have feature requests, please [open an issue](https://github.com/tchiphuong/southern-vietnamese-persona-skill/issues).
 
-## 💖 Donate / Support the Author
+## 💖 Support the Author
 
-If you find this persona skill useful and want to buy the author a cup of coffee ☕:
+If you find this persona skill useful, you can star the repository:
 
-<a href="https://nhantien.momo.vn/0944615969">
-  <img src="https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white" alt="Donate MoMo" />
+<a href="https://github.com/tchiphuong/southern-vietnamese-persona-skill">
+  <img src="https://img.shields.io/github/stars/tchiphuong/southern-vietnamese-persona-skill?style=for-the-badge&logo=github&color=gold" alt="GitHub stars" />
 </a>
 
 ---
