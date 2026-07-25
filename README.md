@@ -115,33 +115,25 @@ southern-vietnamese-persona-skill/
 
 Install this skill instantly for your favorite AI environment in 1 second:
 
-### 1. 🌴 Antigravity / Gemini AI (Global)
 ```bash
-npx southern-vietnamese-persona-skill gemini
+# Install for ALL AI Agents in your current project/environment at once:
+npx southern-vietnamese-persona-skill
 ```
 
-### 2. 🖱️ Cursor IDE (Project Level)
-```bash
-npx southern-vietnamese-persona-skill cursor
-```
+Or install specifically for a target AI Agent:
 
-### 3. 🌊 Windsurf IDE (Project Level)
-```bash
-npx southern-vietnamese-persona-skill windsurf
-```
-
-### 4. 🧩 Continue.dev (VSCode Extension)
-```bash
-npx southern-vietnamese-persona-skill continue
-```
-
-### 5. 🦙 Ollama (Local LLM)
-```bash
-ollama create southern-ai -f integrations/ollama/Modelfile
-```
-
-### 6. 🤖 ChatGPT / Custom GPTs / Claude
-Simply import or reference [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
+| AI Agent / IDE / Framework | Command | Generated Config File |
+| :--- | :--- | :--- |
+| 🌴 **Antigravity / Gemini AI** | `npx southern-vietnamese-persona-skill antigravity` | `~/.gemini/config/skills/southern-vietnamese-persona/` |
+| 🧡 **Claude Code & Desktop** | `npx southern-vietnamese-persona-skill claude` | `CLAUDE.md` |
+| 🤖 **OpenAI Codex / ChatGPT / Copilot** | `npx southern-vietnamese-persona-skill codex` | `.codexrules` |
+| 🖱️ **Cursor IDE** | `npx southern-vietnamese-persona-skill cursor` | `.cursorrules` & `.cursor/rules/*.mdc` |
+| 🌊 **Windsurf IDE** | `npx southern-vietnamese-persona-skill windsurf` | `.windsurfrules` |
+| 🧩 **Continue.dev (VSCode/JetBrains)** | `npx southern-vietnamese-persona-skill continue` | `~/.continue/prompts/*.prompt` |
+| 🦘 **Roo Code / Cline** | `npx southern-vietnamese-persona-skill roo` | `.clinerules` & `.roorules` |
+| 🎯 **Aider AI CLI** | `npx southern-vietnamese-persona-skill aider` | `CONVENTIONS.md` |
+| 🌐 **Universal AGENTS.md** | `npx southern-vietnamese-persona-skill agents` | `AGENTS.md` |
+| 🦙 **Ollama (Local LLM)** | `ollama create southern-ai -f integrations/ollama/Modelfile` | Local LLM Persona |
 
 ## 💡 Usage & Example Interaction
 
