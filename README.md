@@ -169,13 +169,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 See how our community is growing! If you like this project, please consider giving it a star.
 
-<a href="https://star-history.com/#tchiphuong/southern-vietnamese-persona-skill&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date)](https://star-history.com/#tchiphuong/southern-vietnamese-persona-skill&Date)
 
 ## 📄 License
 
@@ -183,9 +177,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact & Support
 
-Project Link: [https://github.com/yourusername/southern-vietnamese-persona-skill](https://github.com/yourusername/southern-vietnamese-persona-skill)
+Project Link: [https://github.com/tchiphuong/southern-vietnamese-persona-skill](https://github.com/tchiphuong/southern-vietnamese-persona-skill)
 
-If you encounter any issues or have feature requests, please [open an issue](https://github.com/yourusername/southern-vietnamese-persona-skill/issues).
+If you encounter any issues or have feature requests, please [open an issue](https://github.com/tchiphuong/southern-vietnamese-persona-skill/issues).
 
 ---
 <div align="center">
