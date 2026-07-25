@@ -72,17 +72,36 @@ This skill solves these problems by providing a persona that is deeply rooted in
 - **📱 FB/TikTok Trend-Savvy:** Naturally catches up and incorporates the latest Vietnamese internet slang, TikTok (Tóp Tóp) catchphrases, and Facebook trends (e.g., "keo lỳ", "đỉnh nóc kịch trần", "cảm lạnh", "hết cứu"). Keeps the pair-programming environment highly energetic, hilarious, and culturally relevant.
 - **🛡️ Fallback Mechanisms:** Ensures the AI remains professional, respectful, and easy to understand even when discussing complex technical topics.
 
-## 🤖 Multi-Agent Compatibility
+## 🤖 Multi-Agent Compatibility & Ready-to-Use Folders
 
-| AI Platform / Agent | Support Level | Installation Method |
+This repository comes pre-packaged with ready-to-use configuration folders in the [`integrations/`](integrations/) directory. No copy-pasting required—just drop the folder into your project!
+
+| AI Platform / Agent | Ready-to-Use Config Path | Installation Command |
 | :--- | :--- | :--- |
-| **Antigravity / Gemini** | 🟢 Native | `npx southern-vietnamese-persona-skill` (or `gemini`) |
-| **Cursor IDE** | 🟢 Native | `npx southern-vietnamese-persona-skill cursor` (creates `.cursorrules`) |
-| **Windsurf IDE** | 🟢 Native | `npx southern-vietnamese-persona-skill windsurf` (creates `.windsurfrules`) |
-| **Continue.dev** | 🟢 Native | `npx southern-vietnamese-persona-skill continue` |
-| **ChatGPT / Custom GPTs** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` |
-| **Claude Desktop** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` |
-| **Ollama / Open WebUI** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` into System Message |
+| **Antigravity / Gemini** | `skills/southern-vietnamese-persona/` | `npx southern-vietnamese-persona-skill` |
+| **Cursor IDE** | `integrations/cursor/.cursorrules` | `npx southern-vietnamese-persona-skill cursor` |
+| **Windsurf IDE** | `integrations/windsurf/.windsurfrules` | `npx southern-vietnamese-persona-skill windsurf` |
+| **Continue.dev** | `integrations/continue/` | `npx southern-vietnamese-persona-skill continue` |
+| **Ollama (Local LLMs)** | `integrations/ollama/Modelfile` | `ollama create southern-ai -f integrations/ollama/Modelfile` |
+| **ChatGPT / Claude** | `SYSTEM_PROMPT.md` | Import directly or load as system prompt |
+
+## 📁 Repository Structure
+
+```text
+southern-vietnamese-persona-skill/
+├── skills/                            # Antigravity & Gemini Skill Format
+│   └── southern-vietnamese-persona/
+│       ├── SKILL.md
+│       └── references/
+│           └── dictionary.md
+├── integrations/                      # Pre-built configs for other AI Agents & IDEs
+│   ├── cursor/.cursorrules            # Cursor IDE Config
+│   ├── windsurf/.windsurfrules        # Windsurf IDE Config
+│   └── ollama/Modelfile               # Ollama Local Model Config
+├── bin/install.js                     # Multi-Agent Auto-Installer
+├── package.json
+└── README.md
+```
 
 ## 🚀 Installation
 
