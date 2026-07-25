@@ -141,18 +141,24 @@ npx southern-vietnamese-persona-skill
 
 Or install specifically for a target AI Agent:
 
-| AI Agent / IDE / Framework | Command | Generated Config File |
-| :--- | :--- | :--- |
-| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Antigravity / Gemini AI** | `npx southern-vietnamese-persona-skill antigravity` | `~/.gemini/config/skills/southern-vietnamese-persona/` |
-| ![Claude](https://img.shields.io/badge/Claude_Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white) **Claude Code & Desktop** | `npx southern-vietnamese-persona-skill claude` | `CLAUDE.md` |
-| ![OpenAI](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) **OpenAI Codex / ChatGPT** | `npx southern-vietnamese-persona-skill codex` | `.codexrules` |
-| ![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white) **Cursor IDE** | `npx southern-vietnamese-persona-skill cursor` | `.cursorrules` & `.cursor/rules/*.mdc` |
-| ![Windsurf](https://img.shields.io/badge/Windsurf_IDE-0052CC?style=flat-square&logo=codeium&logoColor=white) **Windsurf IDE** | `npx southern-vietnamese-persona-skill windsurf` | `.windsurfrules` |
-| ![Continue](https://img.shields.io/badge/Continue.dev-FF5722?style=flat-square&logo=continue&logoColor=white) **Continue.dev** | `npx southern-vietnamese-persona-skill continue` | `~/.continue/prompts/*.prompt` |
-| ![Roo Code](https://img.shields.io/badge/Roo_Code-1890FF?style=flat-square&logo=visualstudiocode&logoColor=white) **Roo Code / Cline** | `npx southern-vietnamese-persona-skill roo` | `.clinerules` & `.roorules` |
-| ![Aider](https://img.shields.io/badge/Aider_CLI-22C55E?style=flat-square&logo=terminal&logoColor=white) **Aider AI CLI** | `npx southern-vietnamese-persona-skill aider` | `CONVENTIONS.md` |
-| ![AGENTS](https://img.shields.io/badge/Universal_AGENTS.md-000000?style=flat-square&logo=githubactions&logoColor=white) **Universal AGENTS.md** | `npx southern-vietnamese-persona-skill agents` | `AGENTS.md` |
-| ![Ollama](https://img.shields.io/badge/Ollama_Local-000000?style=flat-square&logo=ollama&logoColor=white) **Ollama (Local LLM)** | `ollama create southern-ai -f integrations/ollama/Modelfile` | Local LLM Persona |
+| AI Agent / IDE / Framework | Command | Generated Config File | Official Doc |
+| :--- | :--- | :--- | :--- |
+| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **[Antigravity / Gemini AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-structure)** | `npx southern-vietnamese-persona-skill antigravity` | `~/.gemini/config/skills/southern-vietnamese-persona/` | [Doc ↗](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-structure) |
+| ![Claude](https://img.shields.io/badge/Claude_Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white) **[Claude Code & Desktop](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)** | `npx southern-vietnamese-persona-skill claude` | `CLAUDE.md` | [Doc ↗](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) |
+| ![OpenAI](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) **[OpenAI Codex / ChatGPT](https://platform.openai.com/docs/guides/prompt-engineering)** | `npx southern-vietnamese-persona-skill codex` | `.codexrules` | [Doc ↗](https://platform.openai.com/docs/guides/prompt-engineering) |
+| ![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white) **[Cursor IDE](https://docs.cursor.com/context/rules-for-ai)** | `npx southern-vietnamese-persona-skill cursor` | `.cursorrules` & `.cursor/rules/*.mdc` | [Doc ↗](https://docs.cursor.com/context/rules-for-ai) |
+| ![Windsurf](https://img.shields.io/badge/Windsurf_IDE-0052CC?style=flat-square&logo=codeium&logoColor=white) **[Windsurf IDE](https://docs.codeium.com/windsurf/memories)** | `npx southern-vietnamese-persona-skill windsurf` | `.windsurfrules` | [Doc ↗](https://docs.codeium.com/windsurf/memories) |
+| ![Continue](https://img.shields.io/badge/Continue.dev-FF5722?style=flat-square&logo=continue&logoColor=white) **[Continue.dev](https://docs.continue.dev/customization/prompts)** | `npx southern-vietnamese-persona-skill continue` | `~/.continue/prompts/*.prompt` | [Doc ↗](https://docs.continue.dev/customization/prompts) |
+| ![Roo Code](https://img.shields.io/badge/Roo_Code-1890FF?style=flat-square&logo=visualstudiocode&logoColor=white) **[Roo Code / Cline](https://github.com/RooVetGit/Roo-Code)** | `npx southern-vietnamese-persona-skill roo` | `.clinerules` & `.roorules` | [Doc ↗](https://github.com/RooVetGit/Roo-Code) |
+| ![Aider](https://img.shields.io/badge/Aider_CLI-22C55E?style=flat-square&logo=terminal&logoColor=white) **[Aider AI CLI](https://aider.chat/docs/usage/conventions.html)** | `npx southern-vietnamese-persona-skill aider` | `CONVENTIONS.md` | [Doc ↗](https://aider.chat/docs/usage/conventions.html) |
+| ![Blackbox](https://img.shields.io/badge/Blackbox_AI-000000?style=flat-square&logo=github&logoColor=white) **[Blackbox AI](https://www.blackbox.ai/)** | `npx southern-vietnamese-persona-skill blackbox` | `.blackboxrules` | [Doc ↗](https://www.blackbox.ai/) |
+| ![Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white) **[GitHub Copilot](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)** | `npx southern-vietnamese-persona-skill copilot` | `.github/copilot-instructions.md` | [Doc ↗](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) |
+| ![Amazon Q](https://img.shields.io/badge/Amazon_Q-FF9900?style=flat-square&logo=amazonaws&logoColor=white) **[Amazon Q Developer](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/custom-instructions.html)** | `npx southern-vietnamese-persona-skill amazonq` | `.amazonq/rules.md` | [Doc ↗](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/custom-instructions.html) |
+| ![Augment](https://img.shields.io/badge/Augment_Code-000000?style=flat-square&logo=codeforces&logoColor=white) **[Augment Code](https://www.augmentcode.com/)** | `npx southern-vietnamese-persona-skill augment` | `.augment/instructions.md` | [Doc ↗](https://www.augmentcode.com/) |
+| ![Trae](https://img.shields.io/badge/Trae_IDE-0052CC?style=flat-square&logo=visualstudiocode&logoColor=white) **[Trae IDE / Kilo Code](https://www.trae.ai/)** | `npx southern-vietnamese-persona-skill trae` | `.traerules` | [Doc ↗](https://www.trae.ai/) |
+| ![Replit](https://img.shields.io/badge/Replit_AI-F26207?style=flat-square&logo=replit&logoColor=white) **[Replit AI Agent](https://docs.replit.com/replit-ai/overview)** | `npx southern-vietnamese-persona-skill replit` | `.replit/instructions.md` | [Doc ↗](https://docs.replit.com/replit-ai/overview) |
+| ![AGENTS](https://img.shields.io/badge/Universal_AGENTS.md-000000?style=flat-square&logo=githubactions&logoColor=white) **[Universal AGENTS.md](https://agents.md)** | `npx southern-vietnamese-persona-skill agents` | `AGENTS.md` | [Doc ↗](https://agents.md) |
+| ![Ollama](https://img.shields.io/badge/Ollama_Local-000000?style=flat-square&logo=ollama&logoColor=white) **[Ollama (Local LLM)](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)** | `ollama create southern-ai -f integrations/ollama/Modelfile` | Local LLM Persona | [Doc ↗](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) |
 
 ### 📋 1-Click Copy Commands List
 
@@ -202,6 +208,36 @@ npx southern-vietnamese-persona-skill roo
 **Aider AI CLI:**
 ```bash
 npx southern-vietnamese-persona-skill aider
+```
+
+**Blackbox AI:**
+```bash
+npx southern-vietnamese-persona-skill blackbox
+```
+
+**GitHub Copilot:**
+```bash
+npx southern-vietnamese-persona-skill copilot
+```
+
+**Amazon Q Developer:**
+```bash
+npx southern-vietnamese-persona-skill amazonq
+```
+
+**Augment Code:**
+```bash
+npx southern-vietnamese-persona-skill augment
+```
+
+**Trae IDE:**
+```bash
+npx southern-vietnamese-persona-skill trae
+```
+
+**Replit AI:**
+```bash
+npx southern-vietnamese-persona-skill replit
 ```
 
 **Universal AGENTS.md:**

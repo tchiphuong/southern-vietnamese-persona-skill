@@ -113,6 +113,52 @@ function installAgents() {
   console.log(`✅ Installed for Universal AI Agents Standard (AGENTS.md)`);
 }
 
+function installBlackbox() {
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(process.cwd(), '.blackboxrules'), promptContent, 'utf8');
+  console.log(`✅ Installed for Blackbox AI (.blackboxrules)`);
+}
+
+function installCopilot() {
+  const githubDir = path.join(process.cwd(), '.github');
+  if (!fs.existsSync(githubDir)) {
+    fs.mkdirSync(githubDir, { recursive: true });
+  }
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(githubDir, 'copilot-instructions.md'), promptContent, 'utf8');
+  console.log(`✅ Installed for GitHub Copilot (.github/copilot-instructions.md)`);
+}
+
+function installAmazonQ() {
+  const qDir = path.join(process.cwd(), '.amazonq');
+  if (!fs.existsSync(qDir)) fs.mkdirSync(qDir, { recursive: true });
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(qDir, 'rules.md'), promptContent, 'utf8');
+  console.log(`✅ Installed for Amazon Q Developer (.amazonq/rules.md)`);
+}
+
+function installAugment() {
+  const augDir = path.join(process.cwd(), '.augment');
+  if (!fs.existsSync(augDir)) fs.mkdirSync(augDir, { recursive: true });
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(augDir, 'instructions.md'), promptContent, 'utf8');
+  console.log(`✅ Installed for Augment Code (.augment/instructions.md)`);
+}
+
+function installTrae() {
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(process.cwd(), '.traerules'), promptContent, 'utf8');
+  console.log(`✅ Installed for Trae IDE (.traerules)`);
+}
+
+function installReplit() {
+  const repDir = path.join(process.cwd(), '.replit');
+  if (!fs.existsSync(repDir)) fs.mkdirSync(repDir, { recursive: true });
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(path.join(repDir, 'instructions.md'), promptContent, 'utf8');
+  console.log(`✅ Installed for Replit AI (.replit/instructions.md)`);
+}
+
 try {
   console.log(`🌴 Installing ${skillName} for ALL AI Agents...\n`);
   
@@ -127,8 +173,14 @@ try {
   if (target === 'roo' || target === 'cline' || target === 'all') installRoo();
   if (target === 'aider' || target === 'all') installAider();
   if (target === 'agents' || target === 'all') installAgents();
+  if (target === 'blackbox' || target === 'all') installBlackbox();
+  if (target === 'copilot' || target === 'github' || target === 'all') installCopilot();
+  if (target === 'amazonq' || target === 'amazon' || target === 'all') installAmazonQ();
+  if (target === 'augment' || target === 'all') installAugment();
+  if (target === 'trae' || target === 'kilo' || target === 'all') installTrae();
+  if (target === 'replit' || target === 'all') installReplit();
 
-  console.log(`\n🎉 Installation complete! 100% Universal Support for ALL AI Agents (Antigravity, Claude, Codex, Cursor, Windsurf, Continue, Roo/Cline, Aider, Ollama & Custom LLMs).`);
+  console.log(`\n🎉 Installation complete! 100% Universal Support for 17+ AI Agents (Google Gemini, Claude, Codex, Copilot, Cursor, Windsurf, Continue, Roo/Cline, Aider, Blackbox AI, Amazon Q, Augment, Trae, Replit AI, Ollama & Custom LLMs).`);
 } catch (error) {
   console.error('\n❌ Failed to install skill:', error.message);
   process.exit(1);

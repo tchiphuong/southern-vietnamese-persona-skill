@@ -19,6 +19,12 @@ yarn-error.log*
 .cursorrules
 .roorules
 .windsurfrules
+.blackboxrules
+.traerules
+.amazonq/
+.augment/
+.replit/
+.github/copilot-instructions.md
 AGENTS.md
 CLAUDE.md
 CONVENTIONS.md
