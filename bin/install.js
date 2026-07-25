@@ -7,6 +7,7 @@ const os = require('os');
 const skillName = 'southern-vietnamese-persona';
 const sourceDir = path.join(__dirname, '..', 'skills', skillName);
 const systemPromptFile = path.join(__dirname, '..', 'SYSTEM_PROMPT.md');
+const cursorMdcFile = path.join(__dirname, '..', 'integrations', 'cursor', '.cursor', 'rules', `${skillName}.mdc`);
 
 const homeDir = os.homedir();
 const args = process.argv.slice(2);
@@ -42,10 +43,22 @@ function installGemini() {
 }
 
 function installCursor() {
+  // Legacy .cursorrules
   const targetFile = path.join(process.cwd(), '.cursorrules');
   const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
   fs.writeFileSync(targetFile, promptContent, 'utf8');
-  console.log(`✅ Installed for Cursor IDE: ${targetFile}`);
+
+  // Modern .cursor/rules/*.mdc
+  const cursorRulesDir = path.join(process.cwd(), '.cursor', 'rules');
+  if (!fs.existsSync(cursorRulesDir)) {
+    fs.mkdirSync(cursorRulesDir, { recursive: true });
+  }
+  const mdcTargetFile = path.join(cursorRulesDir, `${skillName}.mdc`);
+  if (fs.existsSync(cursorMdcFile)) {
+    fs.copyFileSync(cursorMdcFile, mdcTargetFile);
+  }
+  
+  console.log(`✅ Installed for Cursor IDE (.cursorrules & .cursor/rules/${skillName}.mdc)`);
 }
 
 function installContinue() {

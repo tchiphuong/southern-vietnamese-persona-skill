@@ -103,41 +103,50 @@ southern-vietnamese-persona-skill/
 └── README.md
 ```
 
-## 🚀 Installation
+## 🚀 Step-by-Step Installation Guide by AI Agent
 
-We offer multiple installation methods depending on your setup and how broadly you want to apply the persona.
+Choose your AI platform below and follow the simple instructions:
 
-### Method 1: Global Installation via npx (Recommended)
+### 1. 🌴 Antigravity / Gemini AI
+- **Automated (npx):**
+  ```bash
+  npx southern-vietnamese-persona-skill gemini
+  ```
+- **Manual:** Copy the `skills/southern-vietnamese-persona` folder to your global Gemini config:
+  - **Windows:** `C:\Users\<username>\.gemini\config\skills\`
+  - **macOS/Linux:** `~/.gemini/config/skills/`
 
-The easiest way to install the skill globally is by using `npx`. This automated script will locate your system's AI config directory and securely copy the skill files.
+### 2. 🖱️ Cursor IDE
+- **Automated (npx):**
+  ```bash
+  npx southern-vietnamese-persona-skill cursor
+  ```
+- **Manual:** Copy `integrations/cursor/.cursorrules` directly into the root folder of your project as `.cursorrules`.
 
-```bash
-# Run this command anywhere in your terminal
-npx southern-vietnamese-persona-skill
-```
+### 3. 🌊 Windsurf IDE
+- **Automated (npx):**
+  ```bash
+  npx southern-vietnamese-persona-skill windsurf
+  ```
+- **Manual:** Copy `integrations/windsurf/.windsurfrules` directly into the root folder of your project as `.windsurfrules`.
 
-### Method 2: Workspace-Specific Installation
+### 4. 🦙 Ollama (Local LLMs)
+- Run the following command to create a custom local model with the Southern persona:
+  ```bash
+  ollama create southern-ai -f integrations/ollama/Modelfile
+  ollama run southern-ai
+  ```
 
-If you prefer to keep this persona scoped only to a specific project (e.g., a specific repository), you can install it locally:
+### 5. 🤖 ChatGPT / Custom GPTs / Claude Desktop
+- Open [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
+- Copy the content and paste it into **Custom Instructions** (ChatGPT) or **System Prompt** (Claude / Open WebUI).
 
-1. Create a `.agents` directory at the root of your project.
-2. Copy the `skills/southern-vietnamese-persona` directory from this repository into `.agents/skills/`.
-
-Your project structure should look like this:
-```text
-my-awesome-project/
-├── .agents/
-│   └── skills/
-│       └── southern-vietnamese-persona/
-│           └── SKILL.md
-├── src/
-├── package.json
-└── README.md
-```
-
-### Method 3: Manual Global Installation
-
-To manually install the skill across all your projects without using npm:
+### 6. 🧩 Continue.dev (VSCode Extension)
+- **Automated (npx):**
+  ```bash
+  npx southern-vietnamese-persona-skill continue
+  ```
+- **Manual:** Copy the content of [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md) into `~/.continue/prompts/southern-vietnamese-persona.prompt`.
 
 1. Clone or download this repository.
 2. Copy the `skills/southern-vietnamese-persona` directory into your global AI config directory:
