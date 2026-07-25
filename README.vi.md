@@ -86,18 +86,18 @@ Skill này giải quyết triệt để vấn đề bằng một Persona giàu b
 
 Dự án đi kèm các tệp cấu hình sinh ra sẵn trong thư mục [`integrations/`](integrations/). Không cần copy-paste thủ công—chạy 1 dòng lệnh là xong!
 
-| Nền Tảng AI / Agent | Tệp Cấu Hình Sinh Ra | Lệnh Cài Đặt 1-Dòng |
+| Nền Tảng | Tệp Cấu Hình Sinh Ra | Lệnh Cài Đặt 1-Dòng |
 | :--- | :--- | :--- |
-| **Antigravity / Gemini** | `~/.gemini/config/skills/southern-vietnamese-persona/` | `npx southern-vietnamese-persona-skill antigravity` |
-| **Claude Code & Desktop** | `CLAUDE.md` | `npx southern-vietnamese-persona-skill claude` |
-| **OpenAI Codex / ChatGPT** | `.codexrules` | `npx southern-vietnamese-persona-skill codex` |
-| **Cursor IDE** | `.cursorrules` & `.cursor/rules/*.mdc` | `npx southern-vietnamese-persona-skill cursor` |
-| **Windsurf IDE** | `.windsurfrules` | `npx southern-vietnamese-persona-skill windsurf` |
-| **Continue.dev** | `~/.continue/prompts/*.prompt` | `npx southern-vietnamese-persona-skill continue` |
-| **Roo Code / Cline** | `.clinerules` & `.roorules` | `npx southern-vietnamese-persona-skill roo` |
-| **Aider AI CLI** | `CONVENTIONS.md` | `npx southern-vietnamese-persona-skill aider` |
-| **Universal AGENTS.md** | `AGENTS.md` | `npx southern-vietnamese-persona-skill agents` |
-| **Ollama (Local LLM)** | Local LLM Persona | `ollama create southern-ai -f integrations/ollama/Modelfile` |
+| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Antigravity / Gemini AI** | `~/.gemini/config/skills/southern-vietnamese-persona/` | `npx southern-vietnamese-persona-skill antigravity` |
+| ![Claude](https://img.shields.io/badge/Claude_Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white) **Claude Code & Desktop** | `CLAUDE.md` | `npx southern-vietnamese-persona-skill claude` |
+| ![OpenAI](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) **OpenAI Codex / ChatGPT** | `.codexrules` | `npx southern-vietnamese-persona-skill codex` |
+| ![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white) **Cursor IDE** | `.cursorrules` & `.cursor/rules/*.mdc` | `npx southern-vietnamese-persona-skill cursor` |
+| ![Windsurf](https://img.shields.io/badge/Windsurf_IDE-0052CC?style=flat-square&logo=codeium&logoColor=white) **Windsurf IDE** | `.windsurfrules` | `npx southern-vietnamese-persona-skill windsurf` |
+| ![Continue](https://img.shields.io/badge/Continue.dev-FF5722?style=flat-square&logo=continue&logoColor=white) **Continue.dev** | `~/.continue/prompts/*.prompt` | `npx southern-vietnamese-persona-skill continue` |
+| ![Roo Code](https://img.shields.io/badge/Roo_Code-1890FF?style=flat-square&logo=visualstudiocode&logoColor=white) **Roo Code / Cline** | `.clinerules` & `.roorules` | `npx southern-vietnamese-persona-skill roo` |
+| ![Aider](https://img.shields.io/badge/Aider_CLI-22C55E?style=flat-square&logo=terminal&logoColor=white) **Aider AI CLI** | `CONVENTIONS.md` | `npx southern-vietnamese-persona-skill aider` |
+| ![AGENTS](https://img.shields.io/badge/Universal_AGENTS.md-000000?style=flat-square&logo=githubactions&logoColor=white) **Universal AGENTS.md** | `AGENTS.md` | `npx southern-vietnamese-persona-skill agents` |
+| ![Ollama](https://img.shields.io/badge/Ollama_Local-000000?style=flat-square&logo=ollama&logoColor=white) **Ollama (Local LLM)** | Local LLM Persona | `ollama create southern-ai -f integrations/ollama/Modelfile` |
 
 ## 📁 Cấu Trúc Thư Mục
 
