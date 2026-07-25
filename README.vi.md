@@ -10,7 +10,7 @@
 
   [![npm version](https://img.shields.io/npm/v/southern-vietnamese-persona-skill.svg?style=for-the-badge&color=success)](https://www.npmjs.com/package/southern-vietnamese-persona-skill)
   [![GitHub Stars](https://img.shields.io/github/stars/tchiphuong/southern-vietnamese-persona-skill?style=for-the-badge&logo=github&color=gold)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/stargazers)
-  [![Donate MoMo](https://img.shields.io/badge/Donate-MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://me.momo.vn/tchiphuong)
+  [![Donate MoMo](https://img.shields.io/badge/Donate-MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://nhantien.momo.vn/0944615969)
   [![Validate Skill Format](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
@@ -341,9 +341,10 @@ Nếu bạn gặp phải bất kỳ lỗi nào hoặc muốn đề xuất tính 
 
 Nếu anh thấy skill này hữu ích và muốn mời em một ly cà phê Miền Tây ☕:
 
-[![Donate MoMo](https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://me.momo.vn/tchiphuong)
+[![Donate MoMo](https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://nhantien.momo.vn/0944615969)
 
-- **Link Nhận Tiền MoMo:** [https://me.momo.vn/tchiphuong](https://me.momo.vn/tchiphuong)
+- **Link Nhận Tiền MoMo:** [https://nhantien.momo.vn/0944615969](https://nhantien.momo.vn/0944615969)
+- **Lời nhắn gợi ý:** `Ung ho Southern Vietnamese Persona Skill`
 
 ---
 <div align="center">
