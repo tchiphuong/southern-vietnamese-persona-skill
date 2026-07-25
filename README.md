@@ -21,9 +21,9 @@
   <br />
   <a href="#-example-interaction">View Demo</a>
   ·
-  <a href="https://github.com/tchiphuong/southern-vietnamese-persona/issues">Report Bug</a>
+  <a href="https://github.com/tchiphuong/southern-vietnamese-persona-skill/issues">Report Bug</a>
   ·
-  <a href="https://github.com/tchiphuong/southern-vietnamese-persona/issues">Request Feature</a>
+  <a href="https://github.com/tchiphuong/southern-vietnamese-persona-skill/issues">Request Feature</a>
 </div>
 
 ---
@@ -34,14 +34,9 @@
     <li><a href="#-overview">Overview</a></li>
     <li><a href="#-why-this-persona">Why This Persona?</a></li>
     <li><a href="#-key-features">Key Features</a></li>
-    <li>
-      <a href="#-installation">Installation</a>
-      <ul>
-        <li><a href="#method-1-global-installation-via-npx-recommended">Method 1: npm / npx</a></li>
-        <li><a href="#method-2-workspace-specific-installation">Method 2: Workspace-Specific</a></li>
-        <li><a href="#method-3-manual-global-installation">Method 3: Manual</a></li>
-      </ul>
-    </li>
+    <li><a href="#-multi-agent-compatibility--ready-to-use-folders">Multi-Agent Compatibility</a></li>
+    <li><a href="#-repository-structure">Repository Structure</a></li>
+    <li><a href="#-1-command-automated-installation">1-Command Installation</a></li>
     <li><a href="#-usage--example-interaction">Usage & Example Interaction</a></li>
     <li><a href="#-customization">Customization</a></li>
     <li><a href="#-faq">FAQ</a></li>
