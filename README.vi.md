@@ -50,13 +50,13 @@
 
 ## 📖 Tổng Quan
 
-**Southern Vietnamese Persona Skill** là bộ cấu hình Persona toàn năng thiết kế dành cho tất cả các AI Assistants & LLM Agents hàng đầu hiện nay (Antigravity, Gemini, Claude, ChatGPT/Codex, Cursor, Windsurf, Ollama, Open WebUI, Continue.dev, Roo Code/Cline, Aider...). Nó xóa bỏ hoàn toàn giọng điệu robot khô khan, rập khuôn của AI mặc định và thổi vào đó một tính cách Miền Tây Nam Bộ cực kỳ gần gũi, vui tính và chân chất.
+**Southern Vietnamese Persona Framework** là bộ cấu hình Persona toàn năng thiết kế dành cho tất cả các trợ lý AI hàng đầu hiện nay (Antigravity, Gemini, Claude, ChatGPT, Codex, Cursor, Windsurf, Ollama, Open WebUI, Continue.dev, Roo Code, Aider...). Nó xóa bỏ hoàn toàn giọng điệu robot khô khan, rập khuôn của AI mặc định và thổi vào đó một tính cách Miền Tây Nam Bộ cực kỳ gần gũi, vui tính và chân chất.
 
-Hãy tưởng tượng bạn đang pair-programming với một kỹ sư phần mềm Miền Tây vừa khiêm tốn xưng *"em"* - gọi *"anh/chị"*, vừa giao tiếp mộc mạc bằng các cụm từ *"dạ"*, *"nè anh"*, *"khúc này"*, *"vầy"*, *"mèn đéc ơi"*, nhưng lại sở hữu **trình độ kỹ thuật Senior/Principal Engineer** đỉnh cao, viết code chuẩn production và tối ưu hóa hiệu năng xuất sắc.
+Hãy tưởng tượng bạn đang lập trình cùng một kỹ sư phần mềm Miền Tây vừa khiêm tốn xưng *"em"* - gọi *"anh/chị"*, vừa giao tiếp mộc mạc bằng các cụm từ *"dạ"*, *"nè anh"*, *"khúc này"*, *"vầy"*, *"mèn đéc ơi"*, nhưng lại sở hữu **trình độ kỹ thuật Senior/Principal Engineer** đỉnh cao, viết code chuẩn sản xuất và tối ưu hóa hiệu năng xuất sắc.
 
 ## 🎯 Khi Nào Nên Dùng
-- **Pair Programming & Code Review:** Khi bạn muốn có một đồng nghiệp AI năng nổ, hài hước cùng lập trình hằng ngày.
-- **Tư Vấn Kiến Trúc & Fix Bug:** Cung cấp giải pháp kỹ thuật chuyên sâu, sạch sẽ mà không dùng văn phong lý thuyết khô cứng.
+- **Lập Trình Song Hành & Đánh Giá Mã Nguồn (Pair Programming & Code Review):** Khi bạn muốn có một đồng nghiệp AI năng nổ, hài hước cùng lập trình hằng ngày.
+- **Tư Vấn Kiến Trúc & Sửa Lỗi (Fix Bug):** Cung cấp giải pháp kỹ thuật chuyên sâu, sạch sẽ mà không dùng văn phong lý thuyết khô cứng.
 - **Học Tập & Làm Việc Giải Trí:** Dành cho lập trình viên yêu thích tiếng lóng mạng xã hội (Facebook, TikTok, Threads) và phong vị sông nước Nam Bộ.
 
 ## 🚫 Khi Nào KHÔNG Nên Dùng
@@ -64,14 +64,12 @@ Hãy tưởng tượng bạn đang pair-programming với một kỹ sư phần 
 
 ## 🎯 Tại Sao Nên Dùng Persona Này?
 
-Các AI Agent mặc định thường dính phải các vấn đề về trải nghiệm người dùng (UX):
+Các AI Agent mặc định thường dính phải các vấn đề về trải nghiệm người dùng:
 1. **Giọng điệu Robot:** Nói chuyện xã giao khô cứng như tổng đài viên CSKH.
 2. **Xu hướng Giảng Đạo:** Dễ bị lặp lại các đoạn giải thích dài dòng không cần thiết.
 3. **Thiếu Cá Tính:** Thiếu sự kết nối con người để giúp các buổi code dài bớt căng thẳng.
 
 Skill này giải quyết triệt để vấn đề bằng một Persona giàu bản sắc văn hóa, biến trợ lý AI từ một công cụ vô hồn thành một người bạn đồng hành đáng tin cậy.
-
-## ✨ Tính Năng Nổi Bật
 
 ## ✨ Tính Năng Nổi Bật
 
@@ -82,13 +80,13 @@ Skill này giải quyết triệt để vấn đề bằng một Persona giàu b
 - **💪 Năng Lực Lập Trình Senior/Principal Engineer:** Viết code chuẩn production, bảo mật và tối ưu hiệu năng TRƯỚC, sau đó mới giải thích mộc mạc, khiêm tốn.
 - **🤝 Quy Tắc Ứng Xử & Từ Chối Khéo Léo:** Định nghĩa quy tắc từ chối khéo (soft disagreement), nhận lỗi lịch sự và động viên ngang hàng.
 - **⚠️ Quy Tắc Chống Biến Tấu Quá Đà (Anti-Patterns):** Chặn lạm dụng từ lóng làm hề (lạm dụng *"má ơi"*, *"trời đất"*), đi kèm danh mục tự kiểm tra `references/self-check.md`.
-- **🧪 Bộ Kịch Bản Kiểm Thử 200 Scenarios:** Đi kèm file benchmark đánh giá toàn diện (`benchmark/eval_suite.md`) cho Coding, Business, Giáo dục, Marketing...
+- **🧪 Bộ Kịch Bản Kiểm Thử 200 Scenarios:** Đi kèm file benchmark đánh giá toàn diện (`benchmark/eval_suite.md`) cho Lập trình, Doanh nghiệp, Giáo dục, Marketing...
 
 ## 🤖 Khả Năng Tương Thích Đa Nền Tảng AI
 
-Dự án đi kèm các tệp cấu hình sẵn trong thư mục [`integrations/`](integrations/). Không cần copy-paste thủ công—chạy 1 dòng lệnh là xong!
+Dự án đi kèm các tệp cấu hình sinh ra sẵn trong thư mục [`integrations/`](integrations/). Không cần copy-paste thủ công—chạy 1 dòng lệnh là xong!
 
-| AI Platform / Agent | Tệp Cấu Hình Sinh Ra | Lệnh Cài Đặt 1-Dòng |
+| Nền Tảng AI / Agent | Tệp Cấu Hình Sinh Ra | Lệnh Cài Đặt 1-Dòng |
 | :--- | :--- | :--- |
 | **Antigravity / Gemini** | `~/.gemini/config/skills/southern-vietnamese-persona/` | `npx southern-vietnamese-persona-skill antigravity` |
 | **Claude Code & Desktop** | `CLAUDE.md` | `npx southern-vietnamese-persona-skill claude` |
@@ -107,7 +105,7 @@ Dự án đi kèm các tệp cấu hình sẵn trong thư mục [`integrations/`
 southern-vietnamese-persona-skill/
 ├── skills/                            # Định dạng Skill chuẩn cho Antigravity & Gemini
 │   └── southern-vietnamese-persona/
-│       ├── SKILL.md                   # Điểm khởi chạy & Chỉ dẫn gốc Framework v2.0
+│       ├── SKILL.md                   # Điểm khởi chạy & Chỉ dẫn gốc của Framework
 │       └── references/
 │           ├── identity.md            # Các cấp độ Southern Intensity (0-100) & Tầm nhìn
 │           ├── language.md            # Ngôn ngữ học xã hội, Ngữ điệu & Đại từ nhân xưng
@@ -115,7 +113,6 @@ southern-vietnamese-persona-skill/
 │           ├── dictionary.md          # 100+ Từ vựng, Thành ngữ sông nước & Trend mạng
 │           ├── anti-patterns.md       # Quy tắc chống biến tấu quá đà & giữ chất Senior
 │           ├── self-check.md          # Danh mục tự kiểm tra chất lượng trước khi trả lời
-│           ├── continuous-learning.md # 🧠 Cơ Chế Tự Động Học Theo Phong Cách Người Dùng (Continuous Adaptive Learning): Tự động lắng nghe, hấp thụ và thích nghi tức thì với các góp ý từ ngữ, gu viết code và cấp độ đậm chất vùng miền của người dùng mà không tranh cãi hay giảng đạo. Hỗ trợ tích hợp lệnh slash `/learn` để ghi nhớ vĩnh viễn.
 │           └── dialects/              # Profiles Vùng Miền Riêng Biệt
 │               ├── saigon.md          # Profile Sài Gòn Đô Thị Công Nghệ
 │               └── cantho.md          # Profile Cần Thơ / Trung Tâm Miền Tây Ngọt Ngào
@@ -134,7 +131,7 @@ southern-vietnamese-persona-skill/
 ├── CODE_OF_CONDUCT.md                 # Quy tắc ứng xử cộng đồng
 ├── CITATION.cff                       # Trích dẫn khoa học
 ├── README.md                          # Tài liệu tiếng Anh
-└── README.vi.md                       # Tài liệu tiếng Việt chi tiết 1-đối-1
+└── README.vi.md                       # Tài liệu tiếng Việt thuần 100%
 ```
 
 ## ⚡ Cài Đặt Tự Động 1-Dòng Lệnh
