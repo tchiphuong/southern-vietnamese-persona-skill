@@ -88,7 +88,7 @@ Dự án đi kèm các tệp cấu hình sinh ra sẵn trong thư mục [`integr
 
 | Nền Tảng AI / Agent | Lệnh Cài Đặt 1-Dòng | Tài Liệu Hướng Dẫn Gốc |
 | :--- | :--- | :--- |
-| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Google Gemini / Antigravity** | `npx southern-vietnamese-persona-skill antigravity` | [Doc System Instructions ↗](https://ai.google.dev/gemini-api/docs/system-instructions) |
+| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Google Gemini / Antigravity** | `npx southern-vietnamese-persona-skill antigravity` | [Doc Antigravity Skills ↗](https://antigravity.google/docs/ide/skills) |
 | ![Claude](https://img.shields.io/badge/Claude_Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white) **Claude Code & Desktop** | `npx southern-vietnamese-persona-skill claude` | [Doc Claude Code ↗](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) |
 | ![OpenAI](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) **OpenAI Codex / ChatGPT** | `npx southern-vietnamese-persona-skill codex` | [Doc Prompt Engineering ↗](https://platform.openai.com/docs/guides/prompt-engineering) |
 | ![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white) **Cursor IDE** | `npx southern-vietnamese-persona-skill cursor` | [Doc Rules for AI ↗](https://docs.cursor.com/context/rules-for-ai) |

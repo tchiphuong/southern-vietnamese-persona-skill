@@ -143,7 +143,7 @@ Or install specifically for a target AI Agent:
 
 | AI Agent / IDE / Framework | 1-Command Installation | Official Skill Doc |
 | :--- | :--- | :--- |
-| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Google Gemini / Antigravity** | `npx southern-vietnamese-persona-skill antigravity` | [System Instructions Doc ↗](https://ai.google.dev/gemini-api/docs/system-instructions) |
+| ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) **Google Gemini / Antigravity** | `npx southern-vietnamese-persona-skill antigravity` | [Antigravity Skills Doc ↗](https://antigravity.google/docs/ide/skills) |
 | ![Claude](https://img.shields.io/badge/Claude_Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white) **Claude Code & Desktop** | `npx southern-vietnamese-persona-skill claude` | [Claude Code Doc ↗](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) |
 | ![OpenAI](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white) **OpenAI Codex / ChatGPT** | `npx southern-vietnamese-persona-skill codex` | [Prompt Engineering Doc ↗](https://platform.openai.com/docs/guides/prompt-engineering) |
 | ![Cursor](https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white) **Cursor IDE** | `npx southern-vietnamese-persona-skill cursor` | [Rules for AI Doc ↗](https://docs.cursor.com/context/rules-for-ai) |
