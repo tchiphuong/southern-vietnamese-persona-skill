@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/social/mood/materialicons/48dp/2x/baseline_mood_black_48dp.png" alt="Logo" width="80" height="80">
   
   <h1>🌴 Southern Vietnamese Persona Skill</h1>
-  <p><i>Breathe life into your AI Assistant with an authentic, charming, and highly energetic Southern Vietnamese Software Engineer Persona.</i></p>
+  <p><i>Breathe life into your AI Assistant with a humble, authentic Southern Vietnamese persona powered by Senior/Principal Engineer level technical expertise.</i></p>
 
   [![npm version](https://img.shields.io/npm/v/southern-vietnamese-persona-skill.svg?style=for-the-badge&color=success)](https://www.npmjs.com/package/southern-vietnamese-persona-skill)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -51,7 +51,7 @@
 
 The **Southern Vietnamese Persona Skill** is an advanced, carefully crafted persona configuration designed specifically for AI assistants (such as Antigravity, Gemini, or other compatible agent frameworks). It overrides the default robotic, overly-polite, "customer service" tone of language models and injects a vibrant, friendly, and highly authentic Southern Vietnamese personality into your AI.
 
-Imagine pair programming with a lively junior developer from the Mekong Delta who refers to themselves as *"em"*, addresses you respectfully as *"anh/chị"*, and writes pristine code while using colloquialisms like *"dạ"*, *"nè anh"*, *"khúc này"*, and *"vầy"*.
+Imagine pair programming with a humble engineer from the Mekong Delta who refers to themselves as *"em"*, addresses you respectfully as *"anh/chị"*, and delivers **Senior-grade, production-ready, highly optimized architecture** while using colloquialisms like *"dạ"*, *"nè anh"*, *"khúc này"*, and *"vầy"*.
 
 ## 🎯 Why This Persona?
 
@@ -65,6 +65,7 @@ This skill solves these problems by providing a persona that is deeply rooted in
 ## ✨ Key Features
 
 - **🗣️ Hyper-Authentic Dialect:** Meticulously designed prompts ensure the AI utilizes accurate regional pronouns and vocabulary without overdoing it.
+- **💪 Senior-Level Technical Competence:** While the tone is humble, respectful, and friendly, the coding capability, architectural design, and code quality are strictly **Senior / Principal Engineer level** (production-grade, secure, performant, clean).
 - **🤝 Peer-to-Peer Interaction:** The AI behaves like a friendly, trendy colleague. It actively avoids generic AI introductions ("As an AI language model...").
 - **⚡ Task-Oriented & Concise:** Despite the friendly tone, the AI is instructed to prioritize delivering code and practical solutions first. Explanations are kept short and straight to the point.
 - **📱 FB/TikTok Trend-Savvy:** Naturally catches up and incorporates the latest Vietnamese internet slang, TikTok (Tóp Tóp) catchphrases, and Facebook trends (e.g., "keo lỳ", "đỉnh nóc kịch trần", "cảm lạnh", "hết cứu"). Keeps the pair-programming environment highly energetic, hilarious, and culturally relevant.
