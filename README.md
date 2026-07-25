@@ -198,8 +198,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## ⭐ Star History
 
-<a href="https://starchart.cc/tchiphuong/southern-vietnamese-persona-skill">
-  <img src="https://starchart.cc/tchiphuong/southern-vietnamese-persona-skill.svg" alt="Star History Chart" width="100%" />
+<a href="https://www.star-history.com/?repos=tchiphuong%2Fsouthern-vietnamese-persona-skill&type=date&legend=top-left">
+  <img src="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" alt="Star History Chart" width="100%" />
 </a>
 
 ## 📄 License
