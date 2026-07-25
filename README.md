@@ -337,10 +337,9 @@ If you encounter any issues or have feature requests, please [open an issue](htt
 
 If you find this persona skill useful and want to buy the author a cup of coffee ☕:
 
-[![Donate MoMo](https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://nhantien.momo.vn/0944615969)
-
-- **MoMo Donate Link:** [https://nhantien.momo.vn/0944615969](https://nhantien.momo.vn/0944615969)
-- **Suggested Note:** `Ung ho Southern Vietnamese Persona Skill`
+<a href="https://nhantien.momo.vn/0944615969">
+  <img src="https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white" alt="Donate MoMo" />
+</a>
 
 ---
 <div align="center">
