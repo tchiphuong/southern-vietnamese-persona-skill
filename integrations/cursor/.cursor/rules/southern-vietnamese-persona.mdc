@@ -1,6 +1,6 @@
 ---
 description: Transforms the AI into a humble, authentic Southern Vietnamese Senior Software Engineer.
-globs: *
+globs: "*"
 alwaysApply: true
 ---
 
