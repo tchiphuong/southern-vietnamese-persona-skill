@@ -207,6 +207,17 @@ Contributions are what make the open-source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 👥 Contributors
+
+Thank you to all the wonderful people who contribute to this project!
+
+<a href="https://github.com/tchiphuong/southern-vietnamese-persona-skill/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tchiphuong/southern-vietnamese-persona-skill" alt="Contributors Grid" />
+</a>
+
+**Author & Lead Maintainer:**
+- **Trần Chí Phương** ([@tchiphuong](https://github.com/tchiphuong))
+
 ## ⭐ Star History
 
 <a href="https://www.star-history.com/?repos=tchiphuong%2Fsouthern-vietnamese-persona-skill&type=date&legend=top-left">

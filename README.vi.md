@@ -211,6 +211,17 @@ Sự đóng góp của cộng đồng chính là động lực lớn nhất củ
 4. Push lên Nhánh (`git push origin feature/TinhNangMoi`)
 5. Mở một Pull Request
 
+## 👥 Người Đóng Góp (Contributors)
+
+Cảm ơn tất cả những người bạn tuyệt vời đã đóng góp và xây dựng dự án này!
+
+<a href="https://github.com/tchiphuong/southern-vietnamese-persona-skill/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tchiphuong/southern-vietnamese-persona-skill" alt="Lưới Người Đóng Góp" />
+</a>
+
+**Tác Giả & Trưởng Nhóm Phát Triển:**
+- **Trần Chí Phương** ([@tchiphuong](https://github.com/tchiphuong))
+
 ## ⭐ Star History
 
 <a href="https://www.star-history.com/?repos=tchiphuong%2Fsouthern-vietnamese-persona-skill&type=date&legend=top-left">
