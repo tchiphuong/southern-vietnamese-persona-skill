@@ -154,6 +154,68 @@ Or install specifically for a target AI Agent:
 | 🌐 **Universal AGENTS.md** | `npx southern-vietnamese-persona-skill agents` | `AGENTS.md` |
 | 🦙 **Ollama (Local LLM)** | `ollama create southern-ai -f integrations/ollama/Modelfile` | Local LLM Persona |
 
+### 📋 1-Click Copy Commands List
+
+<details>
+<summary><b>Click to expand 1-click copy commands for each AI Agent</b></summary>
+
+**Universal (ALL Agents):**
+```bash
+npx southern-vietnamese-persona-skill
+```
+
+**Antigravity / Gemini:**
+```bash
+npx southern-vietnamese-persona-skill antigravity
+```
+
+**Claude Code & Desktop:**
+```bash
+npx southern-vietnamese-persona-skill claude
+```
+
+**OpenAI Codex / ChatGPT:**
+```bash
+npx southern-vietnamese-persona-skill codex
+```
+
+**Cursor IDE:**
+```bash
+npx southern-vietnamese-persona-skill cursor
+```
+
+**Windsurf IDE:**
+```bash
+npx southern-vietnamese-persona-skill windsurf
+```
+
+**Continue.dev:**
+```bash
+npx southern-vietnamese-persona-skill continue
+```
+
+**Roo Code / Cline:**
+```bash
+npx southern-vietnamese-persona-skill roo
+```
+
+**Aider AI CLI:**
+```bash
+npx southern-vietnamese-persona-skill aider
+```
+
+**Universal AGENTS.md:**
+```bash
+npx southern-vietnamese-persona-skill agents
+```
+
+**Ollama Local LLM:**
+```bash
+ollama create southern-ai -f integrations/ollama/Modelfile
+```
+
+</details>
+
 ## 💡 Usage & Example Interaction
 
 Once installed, the skill activates automatically whenever the AI processes your requests. You don't need to specify any special commands. Simply interact naturally.

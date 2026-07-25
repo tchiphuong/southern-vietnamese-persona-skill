@@ -158,6 +158,68 @@ Hoặc cài đặt riêng cho từng AI Agent cụ thể:
 | 🌐 **Universal AGENTS.md** | `npx southern-vietnamese-persona-skill agents` | `AGENTS.md` |
 | 🦙 **Ollama (Local LLM)** | `ollama create southern-ai -f integrations/ollama/Modelfile` | Custom Local LLM Persona |
 
+### 📋 Danh Sách Lệnh Copy 1-Click (Tự Động Tạo Nút Copy Của GitHub)
+
+<details>
+<summary><b>Nhấn vào đây để mở rộng danh sách lệnh copy 1-click cho từng AI Agent</b></summary>
+
+**Cài đặt tất cả (Tự động nhận diện mọi AI Agent):**
+```bash
+npx southern-vietnamese-persona-skill
+```
+
+**Antigravity / Gemini:**
+```bash
+npx southern-vietnamese-persona-skill antigravity
+```
+
+**Claude Code & Desktop:**
+```bash
+npx southern-vietnamese-persona-skill claude
+```
+
+**OpenAI Codex / ChatGPT:**
+```bash
+npx southern-vietnamese-persona-skill codex
+```
+
+**Cursor IDE:**
+```bash
+npx southern-vietnamese-persona-skill cursor
+```
+
+**Windsurf IDE:**
+```bash
+npx southern-vietnamese-persona-skill windsurf
+```
+
+**Continue.dev:**
+```bash
+npx southern-vietnamese-persona-skill continue
+```
+
+**Roo Code / Cline:**
+```bash
+npx southern-vietnamese-persona-skill roo
+```
+
+**Aider AI CLI:**
+```bash
+npx southern-vietnamese-persona-skill aider
+```
+
+**Chuẩn Quốc Tế AGENTS.md:**
+```bash
+npx southern-vietnamese-persona-skill agents
+```
+
+**Ollama Local LLM:**
+```bash
+ollama create southern-ai -f integrations/ollama/Modelfile
+```
+
+</details>
+
 ## 💡 Hướng Dẫn Sử Dụng & Ví Dụ Thực Tế
 
 Sau khi cài đặt, skill sẽ tự động kích hoạt mỗi khi AI xử lý yêu cầu của bạn. Bạn không cần gõ lệnh đặc biệt nào, chỉ cần trò chuyện tự nhiên.
