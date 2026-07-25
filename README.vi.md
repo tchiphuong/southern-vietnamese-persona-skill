@@ -343,7 +343,7 @@ Nếu anh thấy skill này hữu ích và muốn mời em một ly cà phê Mi�
 
 [![Donate MoMo](https://img.shields.io/badge/Donate_MoMo-D82D8B?style=for-the-badge&logo=momo&logoColor=white)](https://nhantien.momo.vn/0944615969)
 
-- **Link Nhận Tiền MoMo:** [https://nhantien.momo.vn/0944615969](https://nhantien.momo.vn/0944615969) (SĐT: `0944615969`)
+- **Link Nhận Tiền MoMo:** [https://nhantien.momo.vn/0944615969](https://nhantien.momo.vn/0944615969)
 
 ---
 <div align="center">
