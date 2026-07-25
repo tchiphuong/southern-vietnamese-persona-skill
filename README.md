@@ -198,14 +198,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## ⭐ Star History
 
-See how our community is growing! If you like this project, please consider giving it a star 🌟
-
 <a href="https://star-history.com/#tchiphuong/southern-vietnamese-persona-skill&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
-  </picture>
+  <img src="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" alt="Star History Chart" width="100%" />
 </a>
 
 ## 📄 License
