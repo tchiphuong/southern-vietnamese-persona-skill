@@ -100,16 +100,33 @@ This repository comes pre-packaged with ready-to-use configuration folders in th
 southern-vietnamese-persona-skill/
 ├── skills/                            # Antigravity & Gemini Skill Format
 │   └── southern-vietnamese-persona/
-│       ├── SKILL.md
+│       ├── SKILL.md                   # Framework v2.0 Core Directives & Entrypoint
 │       └── references/
-│           └── dictionary.md
-├── integrations/                      # Pre-built configs for other AI Agents & IDEs
-│   ├── cursor/.cursorrules            # Cursor IDE Config
+│           ├── identity.md            # Intensity Levels (0-100) & Framework Vision
+│           ├── language.md            # Sociolinguistics, Rhythm & Pronouns
+│           ├── pragmatics.md          # Conversational Dynamics & Politeness
+│           ├── dictionary.md          # 100+ Southern words, Mekong Idioms & Trends
+│           ├── anti-patterns.md       # Caricature Safeguards & Anti-Overuse Rules
+│           ├── self-check.md          # AI Agent Pre-Response Self-Review Checklist
+│           └── dialects/              # Regional Dialect Profiles
+│               ├── saigon.md          # Urban Saigon Tech Profile
+│               └── cantho.md          # Warm Central Mekong Profile
+├── benchmark/
+│   └── eval_suite.md                  # 200-Prompt Evaluation & Benchmark Suite
+├── integrations/                      # Multi-Agent Configuration Suite
+│   ├── claude/CLAUDE.md               # Claude Code & Claude Desktop Specs
+│   ├── cursor/.cursorrules            # Cursor IDE Config (.cursorrules & .mdc)
 │   ├── windsurf/.windsurfrules        # Windsurf IDE Config
+│   ├── codex/CODEX.md                 # OpenAI Codex / ChatGPT Specs
 │   └── ollama/Modelfile               # Ollama Local Model Config
-├── bin/install.js                     # Multi-Agent Auto-Installer
-├── package.json
-└── README.md
+├── bin/install.js                     # Universal Multi-Agent Installer Script
+├── SYSTEM_PROMPT.md                   # Universal System Prompt Export
+├── LICENSE                            # MIT License
+├── SECURITY.md                        # Security Policy
+├── CODE_OF_CONDUCT.md                 # Code of Conduct
+├── CITATION.cff                       # Academic Citation Metadata
+├── README.md                          # English Documentation
+└── README.vi.md                       # Full Vietnamese Documentation
 ```
 
 ## ⚡ 1-Command Automated Installation

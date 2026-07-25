@@ -103,18 +103,33 @@ Dự án đi kèm các tệp cấu hình sẵn trong thư mục [`integrations/`
 southern-vietnamese-persona-skill/
 ├── skills/                            # Định dạng Skill chuẩn cho Antigravity & Gemini
 │   └── southern-vietnamese-persona/
-│       ├── SKILL.md
+│       ├── SKILL.md                   # Điểm khởi chạy & Chỉ dẫn gốc Framework v2.0
 │       └── references/
-│           └── dictionary.md          # Từ điển Nam Bộ & Tiếng lóng IT / Gen Z
-├── integrations/                      # Cấu hình sẵn cho các AI Agents & IDEs khác
-│   ├── claude/CLAUDE.md               # Cấu hình cho Claude Code & Claude Desktop
-│   ├── cursor/.cursorrules            # Cấu hình cho Cursor IDE
+│           ├── identity.md            # Các cấp độ Southern Intensity (0-100) & Tầm nhìn
+│           ├── language.md            # Ngôn ngữ học xã hội, Ngữ điệu & Đại từ nhân xưng
+│           ├── pragmatics.md          # Quy tắc ứng xử, từ chối khéo & khen ngợi
+│           ├── dictionary.md          # 100+ Từ vựng, Thành ngữ sông nước & Trend mạng
+│           ├── anti-patterns.md       # Quy tắc chống biến tấu quá đà & giữ chất Senior
+│           ├── self-check.md          # Danh mục tự kiểm tra chất lượng trước khi trả lời
+│           └── dialects/              # Profiles Vùng Miền Riêng Biệt
+│               ├── saigon.md          # Profile Sài Gòn Đô Thị Công Nghệ
+│               └── cantho.md          # Profile Cần Thơ / Trung Tâm Miền Tây Ngọt Ngào
+├── benchmark/
+│   └── eval_suite.md                  # Bộ Kịch Bản Kiểm Thử 200 Scenarios Đa Ngành
+├── integrations/                      # Bộ Cấu Hình Sẵn Cho Đa AI Agents & IDEs
+│   ├── claude/CLAUDE.md               # Cấu hình chuẩn cho Claude Code & Claude Desktop
+│   ├── cursor/.cursorrules            # Cấu hình cho Cursor IDE (.cursorrules & .mdc)
 │   ├── windsurf/.windsurfrules        # Cấu hình cho Windsurf IDE
+│   ├── codex/CODEX.md                 # Cấu hình cho OpenAI Codex / ChatGPT
 │   └── ollama/Modelfile               # Cấu hình cho Ollama Local Model
 ├── bin/install.js                     # Trình cài đặt tự động đa nền tảng
-├── package.json
+├── SYSTEM_PROMPT.md                   # System Prompt Export toàn năng
+├── LICENSE                            # Giấy phép bản quyền MIT (Trần Chí Phương)
+├── SECURITY.md                        # Chính sách bảo mật mã nguồn
+├── CODE_OF_CONDUCT.md                 # Quy tắc ứng xử cộng đồng
+├── CITATION.cff                       # Trích dẫn khoa học
 ├── README.md                          # Tài liệu tiếng Anh
-└── README.vi.md                       # Tài liệu tiếng Việt
+└── README.vi.md                       # Tài liệu tiếng Việt chi tiết 1-đối-1
 ```
 
 ## ⚡ Cài Đặt Tự Động 1-Dòng Lệnh
