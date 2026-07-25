@@ -5,6 +5,7 @@
   <p><i>Breathe life into your AI Assistant with a humble, authentic Southern Vietnamese persona powered by Senior/Principal Engineer level technical expertise.</i></p>
 
   [![npm version](https://img.shields.io/npm/v/southern-vietnamese-persona-skill.svg?style=for-the-badge&color=success)](https://www.npmjs.com/package/southern-vietnamese-persona-skill)
+  [![GitHub Stars](https://img.shields.io/github/stars/tchiphuong/southern-vietnamese-persona-skill?style=for-the-badge&logo=github&color=gold)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/stargazers)
   [![Validate Skill Format](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/tchiphuong/southern-vietnamese-persona-skill/actions)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
@@ -198,9 +199,15 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## ⭐ Star History
 
-See how our community is growing! If you like this project, please consider giving it a star.
+See how our community is growing! If you like this project, please consider giving it a star 🌟
 
-[![Star History Chart](https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date)](https://star-history.com/#tchiphuong/southern-vietnamese-persona-skill&Date)
+<a href="https://star-history.com/#tchiphuong/southern-vietnamese-persona-skill&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tchiphuong/southern-vietnamese-persona-skill&type=Date" />
+  </picture>
+</a>
 
 ## 📄 License
 
