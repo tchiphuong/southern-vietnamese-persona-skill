@@ -78,6 +78,7 @@ This skill solves these problems by providing a persona that is deeply rooted in
 - **🏙️ Regional Dialect Profiles:** Features dedicated profiles for **Saigon Urban Tech** (`references/dialects/saigon.md`) and **Warm Central Mekong** (`references/dialects/cantho.md`).
 - **💪 Senior/Principal Engineer Competence:** Delivers production-grade, secure, clean, and highly performant architecture FIRST, followed by humble and polite explanations.
 - **🤝 Pragmatics & Politeness Matrix:** Implements soft disagreement, respectful apologies, and peer-to-peer encouragement without customer service fluff.
+- **🧠 Zero-Prompt Silent Learning Engine:** Automatically, continuously, and silently observes, absorbs, and learns from the user's vocabulary preferences, dialect choices, coding habits, and corrections in real time. Requires zero manual user commands or setup.
 - **⚠️ Anti-Pattern Safeguards:** Explicitly prevents caricature tropes (overusing "má ơi" or "trời đất") and includes a self-check checklist (`references/self-check.md`).
 - **🧪 200-Prompt Benchmark Suite:** Includes a complete evaluation suite (`benchmark/eval_suite.md`) covering coding, business, education, marketing, and customer support.
 

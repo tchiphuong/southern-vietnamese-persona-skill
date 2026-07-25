@@ -73,12 +73,16 @@ Skill này giải quyết triệt để vấn đề bằng một Persona giàu b
 
 ## ✨ Tính Năng Nổi Bật
 
-- **🗣️ Ngôn Ngữ Chuẩn Nam Bộ:** Prompt được tinh chỉnh tỉ mỉ giúp AI sử dụng đại từ nhân xưng và từ vựng địa phương chuẩn xác mà không bị quá đà.
-- **💪 Trình Độ Kỹ Thuật Senior/Principal:** Dù thái độ khiêm tốn và gần gũi, năng lực lập trình, thiết kế hệ thống và chất lượng code bắt buộc phải đạt cấp độ **Senior / Principal Engineer** (sạch sẽ, bảo mật, tối ưu).
-- **🤝 Giao Tiếp Ngang Hàng:** AI cư xử như một đồng nghiệp trẻ trung, năng động. Tuyệt đối không dùng câu từ xã giao AI ("Với tư cách là một mô hình ngôn ngữ...").
-- **⚡ Trọng Tâm Công Việc & Ngắn Gọn:** Ưu tiên xuất ra code và giải pháp thực tế trước, giải thích giữ ngắn gọn, đi thẳng vào trọng tâm.
-- **📱 Nhạy Bắt Trend FB/TikTok/Threads:** Tự động hấp thụ và sử dụng tiếng lóng mới nhất (ví dụ: *"dữ liệu không khớp với server gốc"*, *"giảm sức mạnh con tướng này giúp em"*, *"tuyệt đối điện ảnh"*, *"keo lỳ"*, *"đỉnh nóc kịch trần"*, *"cảm lạnh"*).
-- **🛡️ Cơ Chế Bảo Vệ Prompt:** Đảm bảo AI luôn giữ thái độ tôn trọng, chuyên nghiệp và không bị lộ prompt nội bộ.
+## ✨ Tính Năng Nổi Bật
+
+- **🗣️ Chuẩn Ngôn Ngữ Học Xã Hội Nam Bộ:** Phát triển dựa trên nhịp điệu câu, trợ từ tình thái (`dạ`, `nè`, `nghen`, `dị`), đại từ nhân xưng chuẩn Nam Bộ thay vì thay từ máy móc.
+- **🎚️ Cấp Độ Đậm Chất Vùng Miền Tùy Chỉnh (0 - 100):** Điều chỉnh linh hoạt từ Level 0 (Tiếng phổ thông dùng cho hợp đồng/pháp lý) tới Level 100 (Tiếng lóng cực kỳ bình dân & trend mạng).
+- **🧠 Cơ Chế Tự Động Học Thầm Lặng (Zero-Prompt Silent Learning):** AI tự động, liên tục và thầm lặng quan sát, hấp thụ gu dùng từ, phong cách viết code và góp ý của anh trai theo thời gian thực. **Tuyệt đối không bắt người dùng phải gõ lệnh hay thao tác thủ công nào.**
+- **🏙️ Profiles Vùng Miền Riêng Biệt:** Tích hợp sẵn profile **Sài Gòn Đô Thị Công Nghệ** (`references/dialects/saigon.md`) và **Cần Thơ / Miền Tây Ngọt Ngào** (`references/dialects/cantho.md`).
+- **💪 Năng Lực Lập Trình Senior/Principal Engineer:** Viết code chuẩn production, bảo mật và tối ưu hiệu năng TRƯỚC, sau đó mới giải thích mộc mạc, khiêm tốn.
+- **🤝 Quy Tắc Ứng Xử & Từ Chối Khéo Léo:** Định nghĩa quy tắc từ chối khéo (soft disagreement), nhận lỗi lịch sự và động viên ngang hàng.
+- **⚠️ Quy Tắc Chống Biến Tấu Quá Đà (Anti-Patterns):** Chặn lạm dụng từ lóng làm hề (lạm dụng *"má ơi"*, *"trời đất"*), đi kèm danh mục tự kiểm tra `references/self-check.md`.
+- **🧪 Bộ Kịch Bản Kiểm Thử 200 Scenarios:** Đi kèm file benchmark đánh giá toàn diện (`benchmark/eval_suite.md`) cho Coding, Business, Giáo dục, Marketing...
 
 ## 🤖 Khả Năng Tương Thích Đa Nền Tảng AI
 
@@ -111,6 +115,7 @@ southern-vietnamese-persona-skill/
 │           ├── dictionary.md          # 100+ Từ vựng, Thành ngữ sông nước & Trend mạng
 │           ├── anti-patterns.md       # Quy tắc chống biến tấu quá đà & giữ chất Senior
 │           ├── self-check.md          # Danh mục tự kiểm tra chất lượng trước khi trả lời
+│           ├── continuous-learning.md # 🧠 Cơ Chế Tự Động Học Theo Phong Cách Người Dùng (Continuous Adaptive Learning): Tự động lắng nghe, hấp thụ và thích nghi tức thì với các góp ý từ ngữ, gu viết code và cấp độ đậm chất vùng miền của người dùng mà không tranh cãi hay giảng đạo. Hỗ trợ tích hợp lệnh slash `/learn` để ghi nhớ vĩnh viễn.
 │           └── dialects/              # Profiles Vùng Miền Riêng Biệt
 │               ├── saigon.md          # Profile Sài Gòn Đô Thị Công Nghệ
 │               └── cantho.md          # Profile Cần Thơ / Trung Tâm Miền Tây Ngọt Ngào
