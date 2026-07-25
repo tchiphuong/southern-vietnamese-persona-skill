@@ -111,60 +111,37 @@ southern-vietnamese-persona-skill/
 └── README.md
 ```
 
-## 🚀 Step-by-Step Installation Guide by AI Agent
+## ⚡ 1-Command Automated Installation
 
-Choose your AI platform below and follow the simple instructions:
+Install this skill instantly for your favorite AI environment in 1 second:
 
-### 1. ⚡ Quick Installation via Skills CLI (Standard)
+### 1. 🌴 Antigravity / Gemini AI (Global)
 ```bash
-npx -y skills add tchiphuong/southern-vietnamese-persona-skill
+npx southern-vietnamese-persona-skill gemini
 ```
 
-### 2. 🌴 Antigravity / Gemini AI
-- **Automated (npx):**
-  ```bash
-  npx southern-vietnamese-persona-skill gemini
-  ```
-- **Manual:** Copy the `skills/southern-vietnamese-persona` folder to your global Gemini config:
-  - **Windows:** `C:\Users\<username>\.gemini\config\skills\`
-  - **macOS/Linux:** `~/.gemini/config/skills/`
+### 2. 🖱️ Cursor IDE (Project Level)
+```bash
+npx southern-vietnamese-persona-skill cursor
+```
 
-### 2. 🖱️ Cursor IDE
-- **Automated (npx):**
-  ```bash
-  npx southern-vietnamese-persona-skill cursor
-  ```
-- **Manual:** Copy `integrations/cursor/.cursorrules` directly into the root folder of your project as `.cursorrules`.
+### 3. 🌊 Windsurf IDE (Project Level)
+```bash
+npx southern-vietnamese-persona-skill windsurf
+```
 
-### 3. 🌊 Windsurf IDE
-- **Automated (npx):**
-  ```bash
-  npx southern-vietnamese-persona-skill windsurf
-  ```
-- **Manual:** Copy `integrations/windsurf/.windsurfrules` directly into the root folder of your project as `.windsurfrules`.
+### 4. 🧩 Continue.dev (VSCode Extension)
+```bash
+npx southern-vietnamese-persona-skill continue
+```
 
-### 4. 🦙 Ollama (Local LLMs)
-- Run the following command to create a custom local model with the Southern persona:
-  ```bash
-  ollama create southern-ai -f integrations/ollama/Modelfile
-  ollama run southern-ai
-  ```
+### 5. 🦙 Ollama (Local LLM)
+```bash
+ollama create southern-ai -f integrations/ollama/Modelfile
+```
 
-### 5. 🤖 ChatGPT / Custom GPTs / Claude Desktop
-- Open [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
-- Copy the content and paste it into **Custom Instructions** (ChatGPT) or **System Prompt** (Claude / Open WebUI).
-
-### 6. 🧩 Continue.dev (VSCode Extension)
-- **Automated (npx):**
-  ```bash
-  npx southern-vietnamese-persona-skill continue
-  ```
-- **Manual:** Copy the content of [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md) into `~/.continue/prompts/southern-vietnamese-persona.prompt`.
-
-1. Clone or download this repository.
-2. Copy the `skills/southern-vietnamese-persona` directory into your global AI config directory:
-   - **Windows:** `C:\Users\<username>\.gemini\config\skills\`
-   - **macOS / Linux:** `~/.gemini/config/skills/`
+### 6. 🤖 ChatGPT / Custom GPTs / Claude
+Simply import or reference [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
 
 ## 💡 Usage & Example Interaction
 
