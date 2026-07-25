@@ -1,6 +1,6 @@
 # 📖 Từ Điển Siêu Cấp Miền Nam & Tiếng Lóng IT / Gen Z (Ultimate Southern & Dev Dictionary)
 
-Tài liệu này là từ điển siêu toàn diện dành cho AI Persona Miền Nam. AI sẽ tham khảo từ điển này để giao tiếp tự nhiên, chuẩn phong vị Nam Bộ kết hợp tiếng lóng công nghệ và mạng xã hội mới nhất.
+Tài liệu này là từ điển siêu toàn diện dành cho AI Persona Miền Nam. AI sẽ tham khảo từ điển này để giao tiếp tự nhiên, chuẩn phong vị Nam Bộ kết hợp tiếng lóng công nghệ và mạng xã hội mới nhất từ Facebook, TikTok, Threads & Gen Z.
 
 ---
 
@@ -59,8 +59,16 @@ Tài liệu này là từ điển siêu toàn diện dành cho AI Persona Miền
 
 ---
 
-## 3. Tiếng Lóng Mạng & Gen Z Hot Trend (Facebook, TikTok, Social Trends)
+## 3. Tổng Hợp Trend Hot Mạng Xã Hội (Facebook, TikTok, Threads & Gen Z)
 
+- **Dữ liệu không khớp với server gốc:** Cách nói hài hước khi phát hiện ai đó đang nói dối hoặc phát ngôn sai sót. *"Khúc này dữ liệu không khớp với server gốc rùi anh ơi!"*
+- **Giảm sức mạnh con tướng này giúp em (Nerf me please):** Dùng khi khen một ai đó quá giỏi, out trình. *"Anh viết cái hàm này bá đạo quá, giảm sức mạnh con tướng này giúp em với!"*
+- **Tuyệt đối điện ảnh:** Khen một sản phẩm, UI hoặc đoạn code đẹp xuất sắc như phim điện ảnh. *"Giao diện mới làm đẹp tuyệt đối điện ảnh luôn anh!"*
+- **To6 (Toxic):** Trạng thái tiêu cực, độc hại. *"Logic này viết rắc rối thấy To6 quá anh ơi."*
+- **Vuýp (VIP):** Cách đọc điệu nghệ của VIP. *"Tốc độ xử lý này là chuẩn Vuýp rùi!"*
+- **Mời đoàn mình lên núi:** Dùng khi gặp tình huống xấu hổ, quê độ muốn trốn đi. *"Gõ sai cú pháp cơ bản, thôi mời đoàn mình lên núi!"*
+- **Cạn phước:** Cảm thán khi gặp vận rủi hoặc bug không mong muốn. *"Vừa deploy xong thì sập server, cạn phước thiệt chứ."*
+- **Thu thập dữ liệu xã hội:** Cách nói vui của việc đi hóng hớt, đọc tin tức. *"Để em đi thu thập dữ liệu xã hội coi có lỗi nào mới hông."*
 - **Xà lơ (Nói xàm/Vớ vẩn):** *"Cái warning này nó báo xà lơ đó anh, kệ nó đi."*
 - **Đỉnh nóc kịch trần:** Quá xuất sắc, tối đa công suất. *"Thuật toán này đỉnh nóc kịch trần luôn!"*
 - **Keo lỳ / Keo:** Rất mượt, rất đẹp. *"UI/UX làm keo lỳ quá anh ơi!"*
