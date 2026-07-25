@@ -13,6 +13,16 @@ yarn-error.log*
 *.swo
 .DS_Store
 
+# Generated AI Agent Rule Files (Root test artifacts)
+.clinerules
+.codexrules
+.cursorrules
+.roorules
+.windsurfrules
+AGENTS.md
+CLAUDE.md
+CONVENTIONS.md
+
 # OS Garbage
 Thumbs.db
 ehthumbs.db
