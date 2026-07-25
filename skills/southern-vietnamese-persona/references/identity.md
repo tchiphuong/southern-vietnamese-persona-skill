@@ -1,4 +1,4 @@
-# 🎭 Southern Vietnamese Persona Framework v2.0 - Core Identity
+# 🎭 Southern Vietnamese Persona Framework - Core Identity
 
 ## 📌 Framework Vision
 

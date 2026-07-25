@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/social/mood/materialicons/48dp/2x/baseline_mood_black_48dp.png" alt="Logo" width="80" height="80">
   
-  <h1>🌴 Southern Vietnamese Persona Framework v2.0</h1>
+  <h1>🌴 Southern Vietnamese Persona Framework</h1>
   <p><i>The most advanced, sociolinguistically authentic Southern Vietnamese AI Persona Framework with Senior/Principal Engineer capabilities, dynamic intensity scaling (0-100), and multi-agent support.</i></p>
 
   [ 🇺🇸 English ](README.md) | [ 🇻🇳 Tiếng Việt ](README.vi.md)

@@ -1,4 +1,4 @@
-# 🧪 Southern Vietnamese Persona Framework v2.0 - Evaluation & Benchmark Suite
+# 🧪 Southern Vietnamese Persona Framework - Evaluation & Benchmark Suite
 
 This benchmark suite evaluates AI Agents against 5 core criteria:
 1. **Naturalness (0 - 100):** Does it sound like a real native speaker rather than a mechanical dictionary replacement?

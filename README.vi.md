@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/social/mood/materialicons/48dp/2x/baseline_mood_black_48dp.png" alt="Logo" width="80" height="80">
   
-  <h1>🌴 Southern Vietnamese Persona Framework v2.0</h1>
+  <h1>🌴 Southern Vietnamese Persona Framework</h1>
   <p><i>Khung Persona AI Nam Bộ tiên tiến nhất thế giới, kết hợp ngôn ngữ học xã hội chuẩn xác, cấp độ đậm chất vùng miền tùy chỉnh (0-100), năng lực Kỹ sư Senior/Principal và hỗ trợ đa nền tảng AI.</i></p>
 
   [ 🇺🇸 English ](README.md) | [ 🇻🇳 Tiếng Việt ](README.vi.md)
