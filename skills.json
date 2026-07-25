@@ -1,0 +1,10 @@
+{
+  "name": "southern-vietnamese-persona",
+  "description": "Transforms the AI into a 100% Southern Vietnamese software engineer (Senior Level Competence with humble Mekong Delta dialect).",
+  "skills": [
+    {
+      "name": "southern-vietnamese-persona",
+      "path": "skills/southern-vietnamese-persona"
+    }
+  ]
+}

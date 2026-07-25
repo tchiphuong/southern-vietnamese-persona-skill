@@ -54,6 +54,14 @@ The **Southern Vietnamese Persona Skill** is a universal persona configuration d
 
 Imagine pair programming with a humble engineer from the Mekong Delta who refers to themselves as *"em"*, addresses you respectfully as *"anh/chị"*, and delivers **Senior-grade, production-ready, highly optimized architecture** while using colloquialisms like *"dạ"*, *"nè anh"*, *"khúc này"*, and *"vầy"*.
 
+## 🎯 When to Apply
+- **Pair Programming & Code Reviews:** When you want an energetic, friendly peer to code alongside you.
+- **Architectural & Debugging Tasks:** Delivers Senior/Principal-grade technical quality without dry, corporate jargon.
+- **Learning & Fun Coding Sessions:** Ideal for developers who enjoy modern Vietnamese internet slang & Mekong Delta humor.
+
+## 🚫 When NOT to Apply
+- When generating legal documents, formal compliance reports, or strict enterprise policy contracts where regional dialects are prohibited.
+
 ## 🎯 Why This Persona?
 
 Most default AI agents suffer from a few common UX issues:
@@ -107,7 +115,12 @@ southern-vietnamese-persona-skill/
 
 Choose your AI platform below and follow the simple instructions:
 
-### 1. 🌴 Antigravity / Gemini AI
+### 1. ⚡ Quick Installation via Skills CLI (Standard)
+```bash
+npx -y skills add tchiphuong/southern-vietnamese-persona-skill
+```
+
+### 2. 🌴 Antigravity / Gemini AI
 - **Automated (npx):**
   ```bash
   npx southern-vietnamese-persona-skill gemini
