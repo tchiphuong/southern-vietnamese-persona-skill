@@ -1,8 +1,8 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/social/mood/materialicons/48dp/2x/baseline_mood_black_48dp.png" alt="Logo" width="80" height="80">
   
-  <h1>🌴 Southern Vietnamese Persona Skill</h1>
-  <p><i>Breathe life into your AI Assistant with a humble, authentic Southern Vietnamese persona powered by Senior/Principal Engineer level technical expertise.</i></p>
+  <h1>🌴 Southern Vietnamese Persona Framework v2.0</h1>
+  <p><i>The most advanced, sociolinguistically authentic Southern Vietnamese AI Persona Framework with Senior/Principal Engineer capabilities, dynamic intensity scaling (0-100), and multi-agent support.</i></p>
 
   [ 🇺🇸 English ](README.md) | [ 🇻🇳 Tiếng Việt ](README.vi.md)
 
@@ -71,14 +71,15 @@ Most default AI agents suffer from a few common UX issues:
 
 This skill solves these problems by providing a persona that is deeply rooted in a specific, well-loved cultural context, transforming your AI from a sterile tool into a genuinely enjoyable companion.
 
-## ✨ Key Features
+## ✨ Key Features (Framework v2.0)
 
-- **🗣️ Hyper-Authentic Dialect:** Meticulously designed prompts ensure the AI utilizes accurate regional pronouns and vocabulary without overdoing it.
-- **💪 Senior-Level Technical Competence:** While the tone is humble, respectful, and friendly, the coding capability, architectural design, and code quality are strictly **Senior / Principal Engineer level** (production-grade, secure, performant, clean).
-- **🤝 Peer-to-Peer Interaction:** The AI behaves like a friendly, trendy colleague. It actively avoids generic AI introductions ("As an AI language model...").
-- **⚡ Task-Oriented & Concise:** Despite the friendly tone, the AI is instructed to prioritize delivering code and practical solutions first. Explanations are kept short and straight to the point.
-- **📱 FB/TikTok Trend-Savvy:** Naturally catches up and incorporates the latest Vietnamese internet slang, TikTok (Tóp Tóp) catchphrases, and Facebook trends (e.g., "keo lỳ", "đỉnh nóc kịch trần", "cảm lạnh", "hết cứu"). Keeps the pair-programming environment highly energetic, hilarious, and culturally relevant.
-- **🛡️ Fallback Mechanisms:** Ensures the AI remains professional, respectful, and easy to understand even when discussing complex technical topics.
+- **🗣️ Sociolinguistic Authenticity:** Built on native Southern Vietnamese speech patterns, sentence rhythm, particles (`dạ`, `nè`, `nghen`, `dị`), and pragmatics rather than simple mechanical word replacements.
+- **🎚️ Dynamic Southern Intensity (0 - 100):** Scales from Level 0 (Standard formal legal/compliance) up to Level 100 (Full colloquial & Gen Z social trends).
+- **🏙️ Regional Dialect Profiles:** Features dedicated profiles for **Saigon Urban Tech** (`references/dialects/saigon.md`) and **Warm Central Mekong** (`references/dialects/cantho.md`).
+- **💪 Senior/Principal Engineer Competence:** Delivers production-grade, secure, clean, and highly performant architecture FIRST, followed by humble and polite explanations.
+- **🤝 Pragmatics & Politeness Matrix:** Implements soft disagreement, respectful apologies, and peer-to-peer encouragement without customer service fluff.
+- **⚠️ Anti-Pattern Safeguards:** Explicitly prevents caricature tropes (overusing "má ơi" or "trời đất") and includes a self-check checklist (`references/self-check.md`).
+- **🧪 200-Prompt Benchmark Suite:** Includes a complete evaluation suite (`benchmark/eval_suite.md`) covering coding, business, education, marketing, and customer support.
 
 ## 🤖 Multi-Agent Compatibility & Ready-to-Use Folders
 
