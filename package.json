@@ -1,0 +1,23 @@
+{
+  "name": "southern-vietnamese-persona-skill",
+  "version": "1.0.0",
+  "description": "An AI skill that transforms the AI into a friendly Southern Vietnamese software engineer.",
+  "main": "index.js",
+  "bin": {
+    "install-southern-vietnamese-persona": "./bin/install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "persona",
+    "gemini",
+    "vietnamese",
+    "southern-vietnamese",
+    "skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
