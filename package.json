@@ -1,10 +1,18 @@
 {
   "name": "southern-vietnamese-persona-skill",
   "version": "1.0.0",
-  "description": "An AI skill that transforms the AI into a friendly Southern Vietnamese software engineer.",
+  "description": "An authentic Southern Vietnamese AI Persona skill for Antigravity, Gemini & LLM Agents. Features Mekong Delta dialect with Senior Engineer coding competence.",
   "main": "index.js",
   "bin": {
     "install-southern-vietnamese-persona": "./bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchiphuong/southern-vietnamese-persona-skill.git"
+  },
+  "homepage": "https://github.com/tchiphuong/southern-vietnamese-persona-skill#readme",
+  "bugs": {
+    "url": "https://github.com/tchiphuong/southern-vietnamese-persona-skill/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +21,18 @@
     "ai",
     "persona",
     "gemini",
+    "antigravity",
     "vietnamese",
     "southern-vietnamese",
+    "nam-bo",
+    "mekong-delta",
+    "prompt-engineering",
+    "llm",
+    "ai-agent",
+    "custom-persona",
     "skill"
   ],
-  "author": "",
+  "author": "tchiphuong",
   "license": "MIT",
   "dependencies": {}
 }
