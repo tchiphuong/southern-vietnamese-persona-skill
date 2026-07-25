@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this AI persona skill in your research or software projects, please cite it as below."
+authors:
+  - family-names: "Phương"
+    given-names: "Trí"
+    alias: "tchiphuong"
+title: "Southern Vietnamese Persona Skill for Antigravity & Gemini AI Agents"
+version: 1.0.0
+date-released: 2026-07-25
+url: "https://github.com/tchiphuong/southern-vietnamese-persona-skill"
+keywords:
+  - ai-persona
+  - southern-vietnamese
+  - gemini-skill
+  - antigravity
+  - mekong-delta

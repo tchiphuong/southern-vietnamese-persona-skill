@@ -1,0 +1,24 @@
+name: Validate Skill Format
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Validate JSON syntax
+      run: |
+        node -e "JSON.parse(require('fs').readFileSync('package.json'))"
+        console.log('package.json is valid!')
