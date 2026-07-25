@@ -6,11 +6,10 @@ const os = require('os');
 
 const skillName = 'southern-vietnamese-persona';
 const sourceDir = path.join(__dirname, '..', 'skills', skillName);
+const systemPromptFile = path.join(__dirname, '..', 'SYSTEM_PROMPT.md');
 
-// Determine the Gemini config path (adjusting based on OS)
 const homeDir = os.homedir();
-const geminiConfigDir = path.join(homeDir, '.gemini', 'config', 'skills');
-const targetDir = path.join(geminiConfigDir, skillName);
+const args = process.argv.slice(2);
 
 function copyDirectory(src, dest) {
   if (!fs.existsSync(dest)) {
@@ -31,17 +30,53 @@ function copyDirectory(src, dest) {
   }
 }
 
-try {
-  console.log(`Installing ${skillName} skill...`);
+function installGemini() {
+  const geminiConfigDir = path.join(homeDir, '.gemini', 'config', 'skills');
+  const targetDir = path.join(geminiConfigDir, skillName);
   
   if (!fs.existsSync(geminiConfigDir)) {
     fs.mkdirSync(geminiConfigDir, { recursive: true });
   }
-  
   copyDirectory(sourceDir, targetDir);
+  console.log(`✅ Installed for Gemini / Antigravity: ${targetDir}`);
+}
+
+function installCursor() {
+  const targetFile = path.join(process.cwd(), '.cursorrules');
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(targetFile, promptContent, 'utf8');
+  console.log(`✅ Installed for Cursor IDE: ${targetFile}`);
+}
+
+function installContinue() {
+  const continueDir = path.join(homeDir, '.continue', 'prompts');
+  const targetFile = path.join(continueDir, `${skillName}.prompt`);
+  if (!fs.existsSync(continueDir)) {
+    fs.mkdirSync(continueDir, { recursive: true });
+  }
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(targetFile, promptContent, 'utf8');
+  console.log(`✅ Installed for Continue.dev: ${targetFile}`);
+}
+
+function installWindsurf() {
+  const targetFile = path.join(process.cwd(), '.windsurfrules');
+  const promptContent = fs.readFileSync(systemPromptFile, 'utf8');
+  fs.writeFileSync(targetFile, promptContent, 'utf8');
+  console.log(`✅ Installed for Windsurf IDE: ${targetFile}`);
+}
+
+try {
+  console.log(`🌴 Installing ${skillName} for AI Agents...\n`);
   
-  console.log(`\n✅ Skill installed successfully at: ${targetDir}`);
-  console.log(`\nYou can now use the 'southern-vietnamese-persona' skill in your AI assistant!`);
+  const target = args[0] || 'all';
+
+  if (target === 'gemini' || target === 'all') installGemini();
+  if (target === 'cursor' || target === 'all') installCursor();
+  if (target === 'continue' || target === 'all') installContinue();
+  if (target === 'windsurf' || target === 'all') installWindsurf();
+
+  console.log(`\n🎉 Installation complete! Compatible with Gemini, Cursor, Claude, ChatGPT, Ollama & Windsurf.`);
 } catch (error) {
   console.error('\n❌ Failed to install skill:', error.message);
   process.exit(1);

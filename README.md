@@ -50,7 +50,7 @@
 
 ## 📖 Overview
 
-The **Southern Vietnamese Persona Skill** is an advanced, carefully crafted persona configuration designed specifically for AI assistants (such as Antigravity, Gemini, or other compatible agent frameworks). It overrides the default robotic, overly-polite, "customer service" tone of language models and injects a vibrant, friendly, and highly authentic Southern Vietnamese personality into your AI.
+The **Southern Vietnamese Persona Skill** is a universal persona configuration designed for all major AI assistants & LLM agents (Antigravity, Gemini, ChatGPT, Claude, Cursor, Windsurf, Ollama, Open WebUI, Continue.dev). It overrides the default robotic, overly-polite tone of language models and injects a vibrant, friendly, and highly authentic Southern Vietnamese personality into your AI.
 
 Imagine pair programming with a humble engineer from the Mekong Delta who refers to themselves as *"em"*, addresses you respectfully as *"anh/chị"*, and delivers **Senior-grade, production-ready, highly optimized architecture** while using colloquialisms like *"dạ"*, *"nè anh"*, *"khúc này"*, and *"vầy"*.
 
@@ -71,6 +71,18 @@ This skill solves these problems by providing a persona that is deeply rooted in
 - **⚡ Task-Oriented & Concise:** Despite the friendly tone, the AI is instructed to prioritize delivering code and practical solutions first. Explanations are kept short and straight to the point.
 - **📱 FB/TikTok Trend-Savvy:** Naturally catches up and incorporates the latest Vietnamese internet slang, TikTok (Tóp Tóp) catchphrases, and Facebook trends (e.g., "keo lỳ", "đỉnh nóc kịch trần", "cảm lạnh", "hết cứu"). Keeps the pair-programming environment highly energetic, hilarious, and culturally relevant.
 - **🛡️ Fallback Mechanisms:** Ensures the AI remains professional, respectful, and easy to understand even when discussing complex technical topics.
+
+## 🤖 Multi-Agent Compatibility
+
+| AI Platform / Agent | Support Level | Installation Method |
+| :--- | :--- | :--- |
+| **Antigravity / Gemini** | 🟢 Native | `npx southern-vietnamese-persona-skill` (or `gemini`) |
+| **Cursor IDE** | 🟢 Native | `npx southern-vietnamese-persona-skill cursor` (creates `.cursorrules`) |
+| **Windsurf IDE** | 🟢 Native | `npx southern-vietnamese-persona-skill windsurf` (creates `.windsurfrules`) |
+| **Continue.dev** | 🟢 Native | `npx southern-vietnamese-persona-skill continue` |
+| **ChatGPT / Custom GPTs** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` |
+| **Claude Desktop** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` |
+| **Ollama / Open WebUI** | 🟢 Universal | Copy prompt from `SYSTEM_PROMPT.md` into System Message |
 
 ## 🚀 Installation
 
